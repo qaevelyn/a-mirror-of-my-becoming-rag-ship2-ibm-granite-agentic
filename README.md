@@ -4,7 +4,7 @@
 **Author:** Evelyn Caro
 **Status:** ✅ Built and working
 
-**Naming note:** The folder is named `ship2-aws-agentic-rag`. The code files are named 
+**Naming note:** The folder is named `ship2-granite-agentic-rag`. The code files are named 
 `Ship2_IBM_Granite_RAG_v2_Agentic`. Both are accurate: the pipeline was originally 
 developed in an AWS SageMaker notebook environment, and the model used is IBM Granite. 
 The folder name reflects the platform; the file names reflect the model. Current 
