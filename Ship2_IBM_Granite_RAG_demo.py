@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# ============================================================
+# Copyright (c) 2026 Evelyn Caro. All rights reserved.
+# A Mirror of My Becoming
+# https://evelynacaro.github.io
+# For licensing inquiries: evelyn.caro.cloud@gmail.com
+# ============================================================
+
 """
 Ship 2 — IBM Granite Agentic RAG — Demo Script
 Uses the existing chroma_db vector store. No document loading.
