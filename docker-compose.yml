@@ -1,0 +1,21 @@
+# ============================================================
+# ship2-granite-agentic-rag — docker-compose.yml
+# Copyright (c) 2026 Evelyn Caro. All rights reserved.
+# ============================================================
+# Usage:
+#   docker compose up --build
+#
+# Requires Ollama running on the host machine with the granite4.1:3b model pulled.
+# ============================================================
+
+services:
+  ship2-granite-agentic-rag:
+    build: .
+    image: ship2-granite-agentic-rag:latest
+    container_name: ship2-granite-agentic-rag
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    volumes:
+      - ./chroma_db:/app/chroma_db
