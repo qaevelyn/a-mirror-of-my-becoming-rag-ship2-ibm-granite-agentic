@@ -101,6 +101,8 @@ Ship 2 of the A Mirror of My Becoming RAG pipelines fleet. The fleet index is [h
 
 **[Suite: Ingestion Tools](https://github.com/qaevelyn/a-mirror-of-my-becoming-suite-ingestion-tools)** — the tooling that gets documents into the vector store this ship reads from.
 
+**[Ship 7 — msgvault adapter](https://github.com/qaevelyn/a-mirror-of-my-becoming-suite-msgvault-adapter)** — the mail bridge.
+
 **[A Mirror of My Becoming](https://github.com/qaevelyn/a-mirror-of-my-becoming)** — the parent index for the entire practice.
 
 ---
